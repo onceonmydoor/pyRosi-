@@ -45,7 +45,7 @@ def main():
 
     base_url='http://www.mmxyz.net/rosi-{}'
 
-    for x in range(2114,2117):
+    for x in range(2200,2210):
         url =base_url.format(x)
         parse_page(url)
 
